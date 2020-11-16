@@ -1,0 +1,106 @@
+a, article, aside, audio, blockquote, body, canvas, caption, details, div, embed, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, label, legend, li, main, menu, nav, object, ol, p, pre, section, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, ul, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+ article {
+    background-color: #fdfdfd;
+    float: left;
+    min-height: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 20px 20px 0;
+    text-align: center;
+}
+
+article {
+    margin-top: 0;
+    max-width: 15em;
+    border-radius: 5px;
+    margin-bottom: 0;
+    background-color: #fdfdfd;
+}
+ article a.img {
+    height: 200px;
+    width: 100%;
+    background-position: 50%;
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+}
+article div .installments {
+    display: block;
+    font-size: 14px;
+    min-height: 24px!important;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+article div .installments .amount {
+    color: #f5821c;
+    font-size: 20px;
+    font-weight: 600;
+}
+article.on-sale .price {
+    text-decoration: line-through;
+    color: #bdbdbd;
+}
+
+
+
+article .price {
+    font-size: 10px;
+}
+
+#modern-variant-card .on-sale {
+    position: absolute;
+    background-color: #f5821c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 5px;
+    padding: 8px;
+}
+#modern-variant-card h6 {
+    white-space: normal!important;
+    font-weight: 900;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+
+.other-options .variants-list article, .related-products .variants-list article {
+    float: left;
+    min-height: 100%;
+    width: calc(25%);
+    margin-left: calc(0px);
+    margin-right: calc(0px);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
